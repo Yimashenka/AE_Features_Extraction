@@ -7,7 +7,7 @@ class SAE(nn.Module):
         # fc means Full Connection
         self.fc1 = nn.Linear(nb_movies, 20) #20 = 20 neurons
         self.fc2 = nn.Linear(20, 10)
-        self.fc3 = nn.Linear(10, 10)
+        self.fc3 = nn.Linear(10, 20)
         self.fc4 = nn.Linear(20, nb_movies)
         self.activation = nn.Sigmoid()
 
